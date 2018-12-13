@@ -1,0 +1,311 @@
+/*******************
+RESET
+********************/
+
+body {
+	font-family: 'Source Sans Pro', helvetica, arial, sans-serif;
+	margin:0;
+	-webkit-f7ont-smoothing: antialiased;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0 0 20px 0;
+}
+
+p {
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+	
+}
+/*******************
+COMMON
+********************/
+.btn {
+	background-color: #fff;
+	color: #a4d35a;
+	line-height: 14px;
+	font-size: 16px;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 11px 46px 11px 46px;
+	text-transform: uppercase;
+}
+
+.dark-blue {
+	background-color: #16181b;
+	color:#fff;
+}
+
+.dark-blue h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.dark-blue p {
+	color: #abbcc3;
+	font-size: 14px;
+}
+.container {
+	margin: auto;
+	width: 100%;
+	max-width: 1080px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.third {
+	box-sizing: border-box;
+	float: left;
+	padding-right: 20px;
+	width:33.3333%;
+}
+
+.third:last-of-type,
+.quarter:last-of-type {
+	padding-right: 0;
+}
+
+.quarter {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	padding-right: 20px;
+}
+
+.section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.section.extra-padding {
+	padding-bottom: 170px;
+}
+
+.rule {
+	background-color: #282b30;
+	height: 2px;
+	width: 62px;
+	margin-bottom: 30px;
+}
+
+.rule.white {
+	background-color: #fff;
+}
+
+.margin-bottom {
+	margin-bottom: 50px;
+}
+
+/*******************
+NAVIGATION
+********************/
+
+.navigation {
+	height: 66px;
+}
+
+.brand {
+	background-color: #a4d35a;
+	float: left;
+	width: 25%;
+	height: 66px;
+}
+
+.brand img {
+	display: block;
+	margin: auto;
+	padding: 13px 0 0 0;
+}
+
+.menu {
+	background-color: #27292b;
+	float: left;
+	width: 75%;
+	text-align: center;
+}
+
+.menu a {
+	color: #fff;
+	line-height: 66px;
+	margin-right: 15px;
+}
+
+.menu a: last-of-type {
+	margin-right: 0;
+}
+
+
+
+/*******************
+HERO
+********************/
+
+.hero {
+	background-image: url('./assets/img/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.hero-content {
+	padding: 272px 0 220px 0;
+	text-align: center;
+}
+
+.hero-content h1 {
+	color: #a4d35a;
+	font-size: 55px;
+	line-height: 60px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.hero-content h2 {
+	color: #fff;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+
+
+/*******************
+SHOE
+********************/
+
+.shoe {
+	background-color: #27292b;
+	background-image: url('./assets/img/shoe-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center right;
+	color: #fff;
+}
+
+
+.large-image {
+	float: left;
+	width: 800px;
+}
+
+.thumbnails {
+	float: left;
+	width: 105px;
+}
+
+.thumbnails img {
+	width: 100%;
+	max-width: 100%;
+}
+.thumbnails h3 {
+	font-size: 12px;
+}
+
+.thumbnails h3 span {
+	font-size: 20px;
+}
+
+.thumbnails ul {
+	padding: 0;
+}
+
+.thumbnails ul li {
+	border: 1px solid transparent;
+	cursor: pointer;
+	list-style: none;
+	padding: 15px;
+	margin-bottom: 10px;
+	transition: 0.3s border ease-in-out;
+	-webkit-transition: 0.3s border ease-in-out;
+}
+
+.thumbnails ul li:hover {
+	border: 1px solid #a4d35a;
+	transition: 0.3s border ease-in-out;
+	-webkit-transition: 0.3s border ease-in-out;
+}
+
+.circle {
+	background-color: #a4d35a;
+	border-radius: 50%;
+	height: 460px;
+	margin: auto;
+	width: 460px;
+
+}
+
+.circle img {
+	width: 500px;
+	max-width: none;
+}
+
+.shoe h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.shoe p {
+	color: #abbcc3;
+	font-size: 14px;
+}
+
+
+/*******************
+CTA
+********************/
+
+.cactus-green {
+	background-color: #a4d35a;
+	color: #fff;
+}
+
+.cactus-green h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+
+/*******************
+FOOTER
+********************/
+
+.footer {
+	color: #737c85;
+}
+
+.footer h3 {
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.footer ul {
+	padding: 0;
+}
+
+.footer ul li {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.footer-branding {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.footer-branding p {
+	font-size: 12px;
+}
+#52bab3;
